@@ -1,0 +1,4 @@
+C:\Users\keptil\Source\Repos\dspong\Source\dspong\dspong.Build.cs
+C:\Users\keptil\Source\Repos\dspong\Plugins\VSCodeSourceCodeAccess\Source\VSCodeSourceCodeAccess\VSCodeSourceCodeAccess.Build.cs
+C:\Users\keptil\Source\Repos\dspong\Source\dspong.Target.cs
+C:\Users\keptil\Source\Repos\dspong\Source\dspongEditor.Target.cs

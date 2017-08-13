@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\dspong.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{6E3128F8-5F31-4F4C-911E-8942BE5DBC53}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\dspong.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\dspongEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{0D7A0570-F6E0-4196-95F9-8E8D97C99ACE}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{BA4D8D90-7739-42EF-A906-8E1385BEAC38}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\VSCodeSourceCodeAccess">
+			<UniqueIdentifier>{0B1FE3CB-1782-4213-9298-1C3A69B3DCFF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\VSCodeSourceCodeAccess\Source">
+			<UniqueIdentifier>{A9B16E29-CE74-41F3-8F91-E3DB7465A5AC}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\VSCodeSourceCodeAccess\Source\VSCodeSourceCodeAccess">
+			<UniqueIdentifier>{0E42281E-2582-4ACD-AC37-7274D8FA1972}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\VSCodeSourceCodeAccess\Source\VSCodeSourceCodeAccess\VSCodeSourceCodeAccess.Build.cs">
+			<Filter>Plugins\VSCodeSourceCodeAccess\Source\VSCodeSourceCodeAccess</Filter>
+		</None >
+		<Filter Include="Plugins\VSCodeSourceCodeAccess\Source\VSCodeSourceCodeAccess\Private">
+			<UniqueIdentifier>{D07949E7-36AB-4147-BEF3-048A7A67BFFF}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\VSCodeSourceCodeAccess\Source\VSCodeSourceCodeAccess\Private\VSCodeSettings.cpp">
+			<Filter>Plugins\VSCodeSourceCodeAccess\Source\VSCodeSourceCodeAccess\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\VSCodeSourceCodeAccess\Source\VSCodeSourceCodeAccess\Private\VSCodeSettings.h">
+			<Filter>Plugins\VSCodeSourceCodeAccess\Source\VSCodeSourceCodeAccess\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\VSCodeSourceCodeAccess\Source\VSCodeSourceCodeAccess\Private\VSCodeSourceCodeAccessModule.cpp">
+			<Filter>Plugins\VSCodeSourceCodeAccess\Source\VSCodeSourceCodeAccess\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\VSCodeSourceCodeAccess\Source\VSCodeSourceCodeAccess\Private\VSCodeSourceCodeAccessModule.h">
+			<Filter>Plugins\VSCodeSourceCodeAccess\Source\VSCodeSourceCodeAccess\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\VSCodeSourceCodeAccess\Source\VSCodeSourceCodeAccess\Private\VSCodeSourceCodeAccessor.cpp">
+			<Filter>Plugins\VSCodeSourceCodeAccess\Source\VSCodeSourceCodeAccess\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\VSCodeSourceCodeAccess\Source\VSCodeSourceCodeAccess\Private\VSCodeSourceCodeAccessor.h">
+			<Filter>Plugins\VSCodeSourceCodeAccess\Source\VSCodeSourceCodeAccess\Private</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\VSCodeSourceCodeAccess\VSCodeSourceCodeAccess.uplugin">
+			<Filter>Plugins\VSCodeSourceCodeAccess</Filter>
+		</None >
+		<Filter Include="Plugins\VSCodeSourceCodeAccess\Config">
+			<UniqueIdentifier>{317F234C-7490-40C1-9AAF-20F098426193}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\VSCodeSourceCodeAccess\Config\FilterPlugin.ini">
+			<Filter>Plugins\VSCodeSourceCodeAccess\Config</Filter>
+		</None >
+		<Filter Include="Plugins\VSCodeSourceCodeAccess\Resources">
+			<UniqueIdentifier>{0F846274-D7DF-4AA1-986E-6EB7D97334CD}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\VSCodeSourceCodeAccess\Resources\Icon128.png">
+			<Filter>Plugins\VSCodeSourceCodeAccess\Resources</Filter>
+		</None >
+		<Filter Include="Source\dspong">
+			<UniqueIdentifier>{F0A78726-7855-4005-8277-3B5906DADDAB}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\dspong\dspong.Build.cs">
+			<Filter>Source\dspong</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\dspong\dspong.cpp">
+			<Filter>Source\dspong</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\dspong\dspong.h">
+			<Filter>Source\dspong</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\dspong\dspongGameModeBase.cpp">
+			<Filter>Source\dspong</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\dspong\dspongGameModeBase.h">
+			<Filter>Source\dspong</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
